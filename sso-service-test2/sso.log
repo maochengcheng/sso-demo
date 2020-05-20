@@ -1,0 +1,120 @@
+2020-05-20 15:27:25.620  INFO 15960 --- [restartedMain] com.lemon.B_Application                  : Starting B_Application on PC-201912171203 with PID 15960 (started by Administrator in D:\idea_workspace\SSO DEMO\sso-service-test2)
+2020-05-20 15:27:25.622  INFO 15960 --- [restartedMain] com.lemon.B_Application                  : No active profile set, falling back to default profiles: default
+2020-05-20 15:27:25.863  INFO 15960 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7810118c: startup date [Wed May 20 15:27:25 CST 2020]; root of context hierarchy
+2020-05-20 15:27:29.388  INFO 15960 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1529 (http)
+2020-05-20 15:27:29.413  INFO 15960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-05-20 15:27:29.415  INFO 15960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2020-05-20 15:27:29.924  INFO 15960 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-20 15:27:29.933  INFO 15960 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring embedded WebApplicationContext
+2020-05-20 15:27:29.934  INFO 15960 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4071 ms
+2020-05-20 15:27:30.286  INFO 15960 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 15:27:30.297  INFO 15960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 15:27:30.299  INFO 15960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 15:27:30.300  INFO 15960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 15:27:30.301  INFO 15960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 15:27:31.064  INFO 15960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7810118c: startup date [Wed May 20 15:27:25 CST 2020]; root of context hierarchy
+2020-05-20 15:27:31.246  INFO 15960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.lemon.controller.HelloWorldController.index()
+2020-05-20 15:27:31.256  INFO 15960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 15:27:31.259  INFO 15960 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 15:27:31.331  INFO 15960 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:27:31.331  INFO 15960 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:27:31.424  INFO 15960 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:27:31.745  WARN 15960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-20 15:27:31.931  INFO 15960 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 15:27:32.103  INFO 15960 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1529 (http)
+2020-05-20 15:27:32.113  INFO 15960 --- [restartedMain] com.lemon.B_Application                  : Started B_Application in 7.121 seconds (JVM running for 10.176)
+2020-05-20 15:36:05.105  INFO 15960 --- [http-nio-1529-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 15:36:05.106  INFO 15960 --- [http-nio-1529-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 15:36:05.149  INFO 15960 --- [http-nio-1529-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2020-05-20 15:56:25.650  INFO 15960 --- [Thread-15] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7810118c: startup date [Wed May 20 15:27:25 CST 2020]; root of context hierarchy
+2020-05-20 15:56:25.653  INFO 15960 --- [Thread-15] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-05-20 15:56:51.197  INFO 6588 --- [restartedMain] com.lemon.B_Application                  : Starting B_Application on PC-201912171203 with PID 6588 (started by Administrator in D:\idea_workspace\SSO DEMO\sso-service-test2)
+2020-05-20 15:56:51.225  INFO 6588 --- [restartedMain] com.lemon.B_Application                  : No active profile set, falling back to default profiles: default
+2020-05-20 15:56:51.375  INFO 6588 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ccb8f0e: startup date [Wed May 20 15:56:51 CST 2020]; root of context hierarchy
+2020-05-20 15:56:54.852  INFO 6588 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1529 (http)
+2020-05-20 15:56:54.887  INFO 6588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-05-20 15:56:54.889  INFO 6588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2020-05-20 15:56:55.405  INFO 6588 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-20 15:56:55.414  INFO 6588 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring embedded WebApplicationContext
+2020-05-20 15:56:55.415  INFO 6588 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4040 ms
+2020-05-20 15:56:55.963  INFO 6588 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 15:56:55.972  INFO 6588 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 15:56:55.974  INFO 6588 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 15:56:55.975  INFO 6588 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 15:56:55.976  INFO 6588 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 15:56:56.906  INFO 6588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ccb8f0e: startup date [Wed May 20 15:56:51 CST 2020]; root of context hierarchy
+2020-05-20 15:56:57.067  INFO 6588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.lemon.controller.HelloWorldController.index()
+2020-05-20 15:56:57.081  INFO 6588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 15:56:57.082  INFO 6588 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 15:56:57.157  INFO 6588 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:56:57.158  INFO 6588 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:56:57.381  INFO 6588 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 15:56:57.660  WARN 6588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-20 15:56:58.016  INFO 6588 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 15:56:58.163  INFO 6588 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1529 (http)
+2020-05-20 15:56:58.173  INFO 6588 --- [restartedMain] com.lemon.B_Application                  : Started B_Application in 7.928 seconds (JVM running for 12.516)
+2020-05-20 16:04:52.897  INFO 6588 --- [http-nio-1529-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 16:04:52.898  INFO 6588 --- [http-nio-1529-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 16:04:52.979  INFO 6588 --- [http-nio-1529-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+2020-05-20 16:31:12.501  INFO 6588 --- [Thread-21] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ccb8f0e: startup date [Wed May 20 15:56:51 CST 2020]; root of context hierarchy
+2020-05-20 16:31:12.508  INFO 6588 --- [Thread-21] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-05-20 16:59:22.128  INFO 11652 --- [restartedMain] com.lemon.B_Application                  : Starting B_Application on PC-201912171203 with PID 11652 (started by Administrator in D:\idea_workspace\SSO DEMO\sso-service-test2)
+2020-05-20 16:59:22.133  INFO 11652 --- [restartedMain] com.lemon.B_Application                  : No active profile set, falling back to default profiles: default
+2020-05-20 16:59:22.334  INFO 11652 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71364fcb: startup date [Wed May 20 16:59:22 CST 2020]; root of context hierarchy
+2020-05-20 16:59:25.980  INFO 11652 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1529 (http)
+2020-05-20 16:59:26.001  INFO 11652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-05-20 16:59:26.003  INFO 11652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2020-05-20 16:59:26.447  INFO 11652 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-20 16:59:26.455  INFO 11652 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring embedded WebApplicationContext
+2020-05-20 16:59:26.456  INFO 11652 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4122 ms
+2020-05-20 16:59:26.814  INFO 11652 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 16:59:26.828  INFO 11652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 16:59:26.829  INFO 11652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 16:59:26.830  INFO 11652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 16:59:26.831  INFO 11652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 16:59:27.624  INFO 11652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71364fcb: startup date [Wed May 20 16:59:22 CST 2020]; root of context hierarchy
+2020-05-20 16:59:27.762  INFO 11652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.lemon.controller.HelloWorldController.index()
+2020-05-20 16:59:27.772  INFO 11652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 16:59:27.774  INFO 11652 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 16:59:27.874  INFO 11652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 16:59:27.875  INFO 11652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 16:59:27.952  INFO 11652 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 16:59:28.222  WARN 11652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-20 16:59:28.427  INFO 11652 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 16:59:28.561  INFO 11652 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1529 (http)
+2020-05-20 16:59:28.570  INFO 11652 --- [restartedMain] com.lemon.B_Application                  : Started B_Application in 7.285 seconds (JVM running for 10.114)
+2020-05-20 17:00:05.976  INFO 11652 --- [http-nio-1529-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 17:00:05.977  INFO 11652 --- [http-nio-1529-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 17:00:06.024  INFO 11652 --- [http-nio-1529-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2020-05-20 17:15:50.840  INFO 11652 --- [Thread-14] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71364fcb: startup date [Wed May 20 16:59:22 CST 2020]; root of context hierarchy
+2020-05-20 17:15:50.859  INFO 11652 --- [Thread-14] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-05-20 17:19:26.718  INFO 9552 --- [restartedMain] com.lemon.B_Application                  : Starting B_Application on PC-201912171203 with PID 9552 (started by Administrator in D:\idea_workspace\SSO DEMO\sso-service-test2)
+2020-05-20 17:19:26.721  INFO 9552 --- [restartedMain] com.lemon.B_Application                  : No active profile set, falling back to default profiles: default
+2020-05-20 17:19:26.829  INFO 9552 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@513af836: startup date [Wed May 20 17:19:26 CST 2020]; root of context hierarchy
+2020-05-20 17:19:30.187  INFO 9552 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1529 (http)
+2020-05-20 17:19:30.208  INFO 9552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-05-20 17:19:30.211  INFO 9552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2020-05-20 17:19:30.586  INFO 9552 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-20 17:19:30.596  INFO 9552 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring embedded WebApplicationContext
+2020-05-20 17:19:30.597  INFO 9552 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3768 ms
+2020-05-20 17:19:31.023  INFO 9552 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-20 17:19:31.032  INFO 9552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-20 17:19:31.033  INFO 9552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-20 17:19:31.034  INFO 9552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-20 17:19:31.036  INFO 9552 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-20 17:19:31.823  INFO 9552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@513af836: startup date [Wed May 20 17:19:26 CST 2020]; root of context hierarchy
+2020-05-20 17:19:31.991  INFO 9552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.lemon.controller.HelloWorldController.index()
+2020-05-20 17:19:32.009  INFO 9552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-20 17:19:32.019  INFO 9552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-20 17:19:32.191  INFO 9552 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 17:19:32.192  INFO 9552 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 17:19:32.346  INFO 9552 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-20 17:19:32.665  WARN 9552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-20 17:19:32.926  INFO 9552 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-20 17:19:33.062  INFO 9552 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1529 (http)
+2020-05-20 17:19:33.076  INFO 9552 --- [restartedMain] com.lemon.B_Application                  : Started B_Application in 6.999 seconds (JVM running for 12.125)
+2020-05-20 17:23:29.308  INFO 9552 --- [http-nio-1529-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/b]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-20 17:23:29.309  INFO 9552 --- [http-nio-1529-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-20 17:23:29.356  INFO 9552 --- [http-nio-1529-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2020-05-20 17:29:41.792  INFO 9552 --- [Thread-17] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@513af836: startup date [Wed May 20 17:19:26 CST 2020]; root of context hierarchy
+2020-05-20 17:29:41.796  INFO 9552 --- [Thread-17] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
